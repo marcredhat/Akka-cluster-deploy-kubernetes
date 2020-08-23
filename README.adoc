@@ -63,10 +63,22 @@ chmod +x ./deployall.sh
 
 ----
 * Be logged in to an OpenShift 4.5 cluster
+----
+
+----
+Deploy the Akka Operator and create an Akka Cluster
+----
+
+image:images/akkaoperator.png[title="akkaoperator"]
+
+
+----
 * export quayusername="<your quay user name>"
 * export quayencryptedpassword="<your quay.io encrypted password>'
 * export quayemail="<email used for your quay.io account>"
 ----
+
+
 
 image:images/akka1.png[title="akka1"]
 
