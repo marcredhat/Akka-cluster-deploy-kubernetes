@@ -79,6 +79,16 @@ image:images/akkaoperator.png[title="akkaoperator"]
 ----
 
 
+== Dynatrace OneAgent automatically discovers your entire Akka application
+
+----
+In a few minutes the Dynatrace OneAgent automatically discovers your entire Akka application. 
+Dynatrace monitors and analyzes the database activities of your Akka applications, 
+providing you with visibility all the way down to individual SQL and NoSQL statements. 
+----
+
+See https://www.dynatrace.com/technologies/java-monitoring/akka/
+
 
 image:images/akka1.png[title="akka1"]
 
