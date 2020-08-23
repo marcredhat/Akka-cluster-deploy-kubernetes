@@ -1,6 +1,8 @@
 
-# Deploy Akka Cluster on OpenShift 4.5 and monitor with Dynatrace 
+== Deploy Akka Cluster on OpenShift 4.5 and monitor with Dynatrace 
 
+
+----
 We will build and deploy a simple Akka application on OpenShift 4.5 to demonstrate how you can build an inherently scalable, distributed solution.
 
 Akka is “a set of open-source libraries for designing scalable, resilient systems that span processor cores and networks”. 
@@ -28,12 +30,12 @@ StatefulSet is the workload API object used to manage stateful applications.
 Manages the deployment and scaling of a set of Pods, and provides guarantees about the ordering and uniqueness of these Pods.
 
 Like a Deployment, a StatefulSet manages Pods that are based on an identical container spec. Unlike a Deployment, a StatefulSet maintains a sticky identity for each of their Pods. These pods are created from the same spec, but are not interchangeable: each has a persistent identifier that it maintains across any rescheduling.
+----
+
+== Watch the Video
 
 
-# Watch the Video
-
-
-# Steps
+== Steps
 
 ----
 wget https://raw.githubusercontent.com/marcredhat/Akka-cluster-deploy-kubernetes/master/deployall.sh
@@ -43,7 +45,7 @@ chmod +x ./deployall.sh
 ./deployall.sh
 ----
 
-# Prerequisites
+== Prerequisites
 
 ----
 * Be logged in to an OpenShift 4.5 cluster
