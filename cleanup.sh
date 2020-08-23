@@ -1,5 +1,5 @@
 
-sudo rm -rf ./Akka-cluster-deploy-kubernetes
+#sudo rm -rf ./Akka-cluster-deploy-kubernetes
 oc project akka
 oc delete secret marcsecretquay -n akka
 oc delete statefulset,svc --all -n akka
