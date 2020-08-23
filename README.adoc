@@ -67,3 +67,9 @@ chmod +x ./deployall.sh
 * export quayencryptedpassword="<your quay.io encrypted password>'
 * export quayemail="<email used for your quay.io account>"
 ----
+
+image:images/akka1.png[title="akka1"]
+
+image:images/akka2.png[title="akka2"]
+
+image:images/akka3.png[title="akka3"]
