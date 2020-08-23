@@ -1,5 +1,5 @@
 {
-  "apiVersion": "apps/v1beta1",
+  "apiVersion": "apps/v1",
   "kind": "StatefulSet",
   "metadata": {
     "name": "myapp"
@@ -7,6 +7,11 @@
   "spec": {
     "serviceName": "myapp",
     "replicas": 3,
+    "selector": {
+      "matchlabels": {
+          "app": "myapp"
+        }
+    }
     "template": {
       "metadata": {
         "labels": {
@@ -17,7 +22,7 @@
         "containers": [
           {
             "name": "myapp",
-            "image": "szihai/myapp:latest",
+            "image": "corfr/tcpdump:latest",
             "imagePullPolicy": "IfNotPresent",
             "ports": [
               {
