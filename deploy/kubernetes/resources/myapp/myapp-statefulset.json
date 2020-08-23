@@ -22,7 +22,7 @@
         "containers": [
           {
             "name": "myapp",
-            "image": "localhost/php-ubi",
+            "image": "quay.io/marcf5/php-ubi",
             "imagePullPolicy": "IfNotPresent",
             "ports": [
               {
