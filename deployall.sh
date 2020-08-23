@@ -1,6 +1,9 @@
+
+printf "\n\n ===> OpenShift version \n"
+
 oc version 
 
-sleep 4
+sleep 5
 
 git clone https://github.com/marcredhat/Akka-cluster-deploy-kubernetes.git
 
@@ -8,16 +11,31 @@ cd Akka-cluster-deploy-kubernetes
 
 sudo chmod +x *.sh
 
-./cleanup.sh
+printf "\n\n ===> Cleanup previous deployments \n"
 
-sleep 3
+./cleanup.sh 2>/dev/null
+
+sleep 5
+
+printf "\n\n ===> Show pods \n"
 
 oc get pods
 
-sleep 4
+sleep 5
 
-./buildandpushimage.sh
+printf "\n\n ===> Build image and push it to private quay registry \n"
 
-./deploy.sh
+./buildandpushimage.sh 2>/dev/null
+
+sleep 5
+
+printf "\n\n ===> Deploy app and expose route \n"
+
+./deploy.sh 2>/dev/null
+
+printf "\n\n ===> Generate traffic \n"
+
+
+
 
 ./generatetraffic.sh
