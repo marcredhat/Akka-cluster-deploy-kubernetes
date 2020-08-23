@@ -11,7 +11,7 @@
       "matchlabels": {
           "app": "myapp"
         }
-    }
+    },
     "template": {
       "metadata": {
         "labels": {
