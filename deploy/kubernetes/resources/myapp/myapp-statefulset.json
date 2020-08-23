@@ -22,7 +22,7 @@
         "containers": [
           {
             "name": "myapp",
-            "image": "corfr/tcpdump:latest",
+            "image": "localhost/php-ubi",
             "imagePullPolicy": "IfNotPresent",
             "ports": [
               {
