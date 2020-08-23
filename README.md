@@ -42,7 +42,7 @@ chmod +x ./deployall.sh
 ./deployall.sh
 
 
-### 2. Prerequisite
+# Prerequisites
 
 * Be logged in to an OpenShift 4.5 cluster
 * export quayusername="<your quay user name>"
