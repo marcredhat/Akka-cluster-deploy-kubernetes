@@ -1,5 +1,5 @@
 
-# Deploy Akka Cluster on Kubernetes and monitor with Dynatrace 
+# Deploy Akka Cluster on OpenShift 4.5 and monitor with Dynatrace 
 
 We will build and deploy a simple Akka application on OpenShift 4.5 to demonstrate how you can build an inherently scalable, distributed solution.
 
