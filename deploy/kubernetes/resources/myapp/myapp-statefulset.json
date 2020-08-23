@@ -8,7 +8,7 @@
     "serviceName": "myapp",
     "replicas": 3,
     "selector": {
-      "matchlabels": {
+      "matchLabels": {
           "app": "myapp"
         }
     },
