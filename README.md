@@ -35,16 +35,19 @@ Like a Deployment, a StatefulSet manages Pods that are based on an identical con
 
 # Steps
 
+----
 wget https://raw.githubusercontent.com/marcredhat/Akka-cluster-deploy-kubernetes/master/deployall.sh
 
 chmod +x ./deployall.sh
 
 ./deployall.sh
-
+----
 
 # Prerequisites
 
+----
 * Be logged in to an OpenShift 4.5 cluster
 * export quayusername="<your quay user name>"
 * export quayencryptedpassword="<your quay.io encrypted password>'
 * export quayemail="<email used for your quay.io account>"
+----
