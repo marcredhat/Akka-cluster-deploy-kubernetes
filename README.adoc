@@ -46,8 +46,9 @@ each has a persistent identifier that it maintains across any rescheduling.
 ----
 
 
-== Watch the Video
+== Watch the step-by-step video
 
+Please see https://youtu.be/7sL9QVEIj_8
 
 == Steps
 
