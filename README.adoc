@@ -1,5 +1,5 @@
 
-== Deploy Akka clusters and apps on OpenShift 4.5; automated discovery and monitoring with Dynatrace 
+== Deploy Akka clusters and apps on OpenShift 4.5; automate discovery and monitor with Dynatrace 
 
 
 ----
